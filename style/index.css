@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  padding-top: 60px;
+  justify-content: center;
+  text-align: center;
+}
+.NavBarFixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.ProfilePictureNavBar {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin: 5px;
+  left: 0;
+  border: 1px solid black;
+  box-shadow: 0 0 2px black;
+}
+
+.ProfilePictureSection {
+  width: 250px;
+  height: 300px;
+  border-radius: 30px;
+  margin: 5px;
+  box-shadow: 0 0 2px;
+  border: 1 solid black;
+}
+.NavBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px black;
+  border-radius: 2px;
+  text-decoration: none;
+  list-style-type: none;
+  color: darkcyan;
+}
+.NavBar ul li a {
+  color: darkcyan;
+}
+
+.Home {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: darkcyan;
+  height: 200px;
+}
+
+.TechnologyPicture {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  box-shadow: 0 0 4px;
+}
+.TechnologyPicture img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.SectionProfilePicture {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.AboutMe {
+  margin: 0 auto;
+  line-height: 2em;
+  font-size: 1.2em;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 0 auto;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.685);
+}
+.AboutMe h3 {
+  text-decoration: underline;
+}
+.Resume {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: darkcyan;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 2px;
+  border: 1px solid black;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.Resume:hover {
+  cursor: pointer;
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px;
+  text-decoration: underline;
+}
+.ResumeIcon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
