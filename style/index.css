@@ -132,7 +132,7 @@ body {
 
 .ProjectSection {
   width: auto;
-  height: 1000px;
+  height: 600px;
   border: 1px solid black;
 }
 .ProjectSection h2 {
@@ -188,4 +188,19 @@ body {
 .ProjectBotton:active {
   background-color: #0056b3;
   transform: scale(0.95);
+}
+
+.Contact {
+  position: relative;
+  background-image: url("Images/EmailBackgroundPicture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+.Form {
+  position: relative;
+  z-index: 1;
 }
