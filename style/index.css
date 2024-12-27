@@ -11,6 +11,7 @@ body {
   justify-content: center;
   text-align: center;
 }
+
 .NavBarFixed {
   position: fixed;
   top: 0;
@@ -23,19 +24,20 @@ body {
   height: 50px;
   border-radius: 30px;
   margin: 5px;
-  left: 0;
+  top: 0;
   border: 1px solid black;
-  box-shadow: 0 0 2px black;
+  box-shadow: 0 0 5px darkcyan;
 }
 
 .ProfilePictureSection {
   width: 250px;
   height: 300px;
-  border-radius: 30px;
+  border-radius: 50%;
   margin: 5px;
-  box-shadow: 0 0 2px;
+  box-shadow: 0 0 15px;
   border: 1 solid black;
 }
+
 .NavBar {
   display: flex;
   justify-content: space-evenly;
@@ -47,8 +49,13 @@ body {
   list-style-type: none;
   color: darkcyan;
 }
-.NavBar ul li a {
+
+.NavBarFixed ul li a {
   color: darkcyan;
+}
+
+.NavBarFixed ul li a:hover {
+  text-decoration: underline;
 }
 
 .Home {
@@ -65,6 +72,7 @@ body {
   text-align: center;
   box-shadow: 0 0 4px;
 }
+
 .TechnologyPicture img {
   width: 80px;
   height: 80px;
@@ -77,6 +85,7 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
 .AboutMe {
   margin: 0 auto;
   line-height: 2em;
@@ -87,8 +96,10 @@ body {
   width: 0 auto;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.685);
 }
-.AboutMe h3 {
+
+.AboutMe h2 {
   text-decoration: underline;
+  color: darkcyan;
 }
 
 .Resume {
@@ -97,8 +108,8 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: darkcyan;
-  border: none;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 30px;
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.1s;
@@ -117,4 +128,64 @@ body {
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+.ProjectSection {
+  width: auto;
+  height: 1000px;
+  border: 1px solid black;
+}
+.ProjectSection h2 {
+  color: darkcyan;
+  line-height: 2em;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.ProjectBox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ProjectContainer {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.ProjectContainer p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.ProjectContainer img {
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.ProjectBotton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: darkcyan;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.ProjectBotton:hover {
+  text-decoration: underline;
+}
+
+.ProjectBotton:active {
+  background-color: #0056b3;
+  transform: scale(0.95);
 }
