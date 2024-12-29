@@ -106,6 +106,7 @@ body {
 .AboutMe h2 {
   text-decoration: underline;
   color: darkcyan;
+  font-size: 1.5em;
 }
 
 .Resume {
