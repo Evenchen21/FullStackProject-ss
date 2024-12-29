@@ -131,9 +131,9 @@ body {
 }
 
 .ProjectSection {
-  width: auto;
-  height: 600px;
-  border: 1px solid black;
+  /* width: 90; */
+  height: 900px;
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.685);
 }
 .ProjectSection h2 {
   color: darkcyan;
@@ -143,14 +143,19 @@ body {
 }
 
 .ProjectBox {
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  /*   grid-template-rows: 100px 200px 400px 100px;
+ */
+  gap: 50px;
 }
 
 .ProjectContainer {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   text-align: center;
   justify-content: center;
 }
@@ -166,20 +171,22 @@ body {
   border-radius: 30px;
   margin: 5px;
   padding: 10px;
-  box-shadow: 0 0 1px black;
+  box-shadow: 0 0 5px black;
+  background-color: darkcyan;
 }
 
-.ProjectBotton {
+.ProjectButton {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
   background-color: darkcyan;
-  border: 1px solid black;
+  border: 1.5px solid black;
   border-radius: 30px;
   text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.1s;
+  box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.685);
 }
 
 .ProjectBotton:hover {
@@ -192,8 +199,7 @@ body {
 }
 
 .Contact {
-  /*  */
-  background-image: url("Images/EmailBackgroundPicture.jpg");
+  background-image: url("Images/EmailBackgroundPicture.jpg ");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -204,6 +210,9 @@ body {
   align-items: center;
 }
 
+.ContactMe {
+  margin-top: 2%;
+}
 .ContactMe h2 {
   color: darkcyan;
   text-align: center;
@@ -221,32 +230,36 @@ body {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px;
-  border: 1px solid black;
-  background-color: beige;
+  max-width: 700px;
+  border: 2px solid black;
+  background-color: darkcyan;
 }
 
 .Form label {
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  left: 0;
 }
 
-Form input[type="text"],
+.Form input[type="text"],
 .Form input[type="tel"],
 .Form input[type="email"],
 .Form textarea {
   width: 70%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+}
+.Form textarea {
+  text-align: left;
 }
 
 .Form input[type="submit"] {
   padding: 10px 20px;
   border: none;
   border-radius: 30px;
-  background-color: darkcyan;
+  background-color: black;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -254,7 +267,7 @@ Form input[type="text"],
 }
 
 .Form input[type="submit"]:hover {
-  background-color: rgb(0, 90, 90);
+  background-color: rgb(101, 101, 101);
 }
 
 .SocialMediaBar {
