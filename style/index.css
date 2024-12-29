@@ -6,10 +6,15 @@
   list-style-type: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  padding-top: 60px;
+  margin-top: 60px;
   justify-content: center;
   text-align: center;
+  scroll-margin-top: 60px;
 }
 
 .NavBarFixed {
@@ -131,7 +136,7 @@ body {
 }
 
 .ProjectSection {
-  /* width: 90; */
+  margin-top: 2%;
   height: 900px;
   box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.685);
 }
@@ -148,8 +153,6 @@ body {
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
-  /*   grid-template-rows: 100px 200px 400px 100px;
- */
   gap: 50px;
 }
 
