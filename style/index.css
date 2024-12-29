@@ -1,3 +1,4 @@
+/* The CSS of the Main page index.html */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .ProfilePictureNavBar {
@@ -29,7 +30,7 @@ body {
   margin: 5px;
   top: 0;
   border: 1px solid black;
-  box-shadow: 0 0 5px darkcyan;
+  box-shadow: 0 0 5px rgb(0, 139, 139);
 }
 
 .ProfilePictureSection {
@@ -243,6 +244,7 @@ body {
   font-weight: bold;
   margin-bottom: 4px;
   left: 0;
+  text-align: center;
 }
 
 .Form input[type="text"],
@@ -254,6 +256,7 @@ body {
   border: 2px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  resize: vertical;
 }
 .Form textarea {
   text-align: left;
