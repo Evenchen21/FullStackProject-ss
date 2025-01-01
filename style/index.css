@@ -303,12 +303,62 @@ body {
   font-size: 10pt;
 }
 
-@media [max-width: 768px] {
-  .Home {
-    margin-bottom: 2px;
-    width: 800px;
+@media (max-width: 768px) {
+  .NavBar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .Button {
-    display: block;
+
+  .NavBarFixed ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .NavBarFixed ul li {
+    margin: 5px 0;
+  }
+
+  .ProfilePictureNavBar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .SocialMediaBar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .SocialMediaBar svg {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .NavBar {
+    padding: 5px;
+  }
+
+  .NavBarFixed ul li a {
+    font-size: 14px;
+  }
+
+  .Home {
+    margin-bottom: 100px;
+  }
+
+  .ProfilePictureNavBar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .SocialMediaBar svg {
+    width: 15px;
+    height: 15px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .Footer {
+    font-size: 8pt;
   }
 }
