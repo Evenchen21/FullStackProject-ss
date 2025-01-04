@@ -127,7 +127,6 @@ body {
 
 .box p {
   color: white;
-  /* font: normal normal normal 20px/26px Assistant; */
   font-family: "Assistant";
   font-size: 17px;
   justify-content: center;
@@ -135,6 +134,7 @@ body {
 }
 
 /* Form Layout */
+
 .FormBox {
   background-color: #f0f0f0;
   padding: 20px;
@@ -142,6 +142,10 @@ body {
   text-align: center;
   background-color: #8e097c;
   color: #0ee1da;
+}
+
+Form {
+  padding: 40px;
 }
 
 .FormBox h2 {
