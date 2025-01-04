@@ -40,17 +40,18 @@
 
 .BoxsContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 30px;
   gap: 10px;
   height: 400px;
 }
 
 .Box {
-  width: 200px;
-  height: 300px;
-  background-color: #60606029;
+  width: 350px;
+  height: 320px;
+  background-color: #f8f8f8;
   color: black;
+  border-radius: 1px;
   text-align: center;
   justify-content: center;
   justify-items: center;
@@ -60,17 +61,35 @@
 .Box img {
   width: 30px;
   height: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .Box p {
   color: #0ee1e1;
   font-weight: bold;
   font-size: 1.5rem;
-  padding: 5px;
+  padding: 10px;
 }
 
 .Box h3 {
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 5px;
+  cursor: pointer;
+}
+
+.FooterBox {
+  display: flex;
+  height: 800px;
+  width: 0 auto;
+  background-color: #f8f8f8;
+  border: 1px solid #0ee1e1;
+}
+.footerLeft {
+  background-color: #f0ffff;
+}
+
+.footerRight {
+  background-color: #0ee1e1;
 }
