@@ -56,14 +56,23 @@
         <div class="FooterForm">
           <h2>הקופון עלינו</h2>
           <p>
-            לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה.
+            .לקבלת ייעוץ חינם, מוזמנים להשאיר פרטים ומומחה יחזור אליכם עם מענה
           </p>
           <form action="index.html" method="post">
-            <label for="name">שם מלא:</label>
-            <input type="text" id="name" name="name" placeholder="" />
+            <label for="name">:שם מלא</label>
+            <input type="text" id="name" name="name" placeholder="" required />
 
-            <label for="email">דואל:</label>
-            <input type="email" id="email" name="email" placeholder="" />
+            <label for="email">:דואל</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder=""
+              required
+            />
+
+            <label for="box">:סיבת ייעוץ</label>
+            <textarea name="text" id="Box" required></textarea>
 
             <button type="submit">שליחה</button>
           </form>
@@ -74,6 +83,20 @@
           src="images/GoogleMapsLocationPicture.png"
           alt="Location Picture"
         />
+      </div>
+      <div class="ContactIcons">
+        <a href="">
+          <img src="images/FaceBookIcon.png" alt="Facebook icon" />
+        </a>
+        <a href="">
+          <img src="images/InstagramIcon.png" alt="Instagram Icon" />
+        </a>
+        <a href="">
+          <img src="images/LinkedinIcon.png" alt="Linkedin Icon" />
+        </a>
+        <a href="">
+          <img src="images/PhoneIcon.png" alt="Phone Icon" />
+        </a>
       </div>
     </footer>
   </body>
