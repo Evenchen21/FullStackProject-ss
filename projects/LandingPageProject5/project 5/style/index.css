@@ -7,12 +7,14 @@
 body {
   font-family: Arial, sans-serif;
   direction: rtl;
+  background-color: #e5eeff;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #e5eeff;
 }
 
 .TextBox {
@@ -26,6 +28,8 @@ body {
   opacity: 1;
 }
 
+/* Grid Layout */
+
 .ImageBoxs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -35,6 +39,7 @@ body {
 .ImageBoxs .image {
   width: 100%;
   height: auto;
+  border: none;
 }
 
 .box {
@@ -58,28 +63,28 @@ body {
   grid-row: 2/3;
 }
 .image2 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 .image5 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 .image4 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 3/4;
+  grid-row: 3/4;
 }
 .image3 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 4/5;
+  grid-row: 3/4;
 }
 .image12 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 1/2;
+  grid-row: 4/5;
 }
 .image14 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 .image7 {
   grid-column: 1/2;
@@ -90,20 +95,36 @@ body {
   grid-row: 5/6;
 }
 .image1 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 1/2;
+  grid-row: 6/7;
 }
 .image8 {
-  grid-column: ;
-  grid-row: ;
+  grid-column: 2/3;
+  grid-row: 6/7;
 }
 .FormBox {
   grid-column: 3/5;
-  grid-row: 3/5;
+  grid-row: 4/7;
 }
 
-/*  */
+.box {
+  background-color: #020253;
+  color: #0ee1da;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font: normal normal bold 51px/70px Assistant;
+}
+.box p {
+  color: white;
+  font: normal normal normal 20px/26px Assistant;
+}
+.box h2 {
+  padding: 80px;
+  font-size: 50px;
+}
 
+/* Form Layout */
 .FormBox {
   background-color: #f0f0f0;
   padding: 20px;
