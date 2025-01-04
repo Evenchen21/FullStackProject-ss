@@ -8,15 +8,32 @@
   background-color: #0ee1e1;
   color: black;
   width: 0 auto;
-  height: 500px;
+  height: 580px;
   text-align: center;
 }
 
+.headerContainer h1 {
+  padding-top: 200px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+}
+
+.headerContainer p {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.imagebox {
+  position: relative;
+  text-align: center;
+}
 .imagebox img {
-  text-align: right;
-  float: right;
-  top: 183px;
-  left: 1445px;
+  position: absolute;
+  right: 400px;
+  bottom: 1px;
   width: 325px;
   height: 267px;
 }
@@ -26,11 +43,34 @@
   justify-content: space-evenly;
   padding: 30px;
   gap: 10px;
+  height: 400px;
 }
+
 .Box {
-  width: 0 auto;
-  height: 100px;
-  background-color: #00000029;
+  width: 200px;
+  height: 300px;
+  background-color: #60606029;
   color: black;
   text-align: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.Box img {
+  width: 30px;
+  height: 30px;
+}
+
+.Box p {
+  color: #0ee1e1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.Box h3 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 5px;
 }
