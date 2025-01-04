@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -113,15 +117,21 @@ body {
   text-align: center;
   justify-content: center;
   justify-items: center;
-  font: normal normal bold 51px/70px Assistant;
 }
+
+.box h2 {
+  margin: 80px;
+  font-size: 40px;
+  font-family: "Assistant";
+}
+
 .box p {
   color: white;
-  font: normal normal normal 20px/26px Assistant;
-}
-.box h2 {
-  padding: 80px;
-  font-size: 50px;
+  /* font: normal normal normal 20px/26px Assistant; */
+  font-family: "Assistant";
+  font-size: 17px;
+  justify-content: center;
+  padding: 20px;
 }
 
 /* Form Layout */
@@ -130,27 +140,53 @@ body {
   padding: 20px;
   border-radius: 5px;
   text-align: center;
+  background-color: #8e097c;
+  color: #0ee1da;
+}
+
+.FormBox h2 {
+  color: white;
+  margin-top: 30px;
 }
 
 .FormBox h2 {
   margin-bottom: 20px;
+  font: normal normal bold 35px/46px Assistant;
+}
+.FormBox h3 {
+  color: white;
+  font-family: "Assistant";
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .FormBox input[type="text"],
 .FormBox input[type="email"],
 .FormBox textarea {
+  display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  color: #0ee1da;
+  border-bottom: 2px solid #0ee1da;
+}
+Form label {
+  display: block;
+  text-align: right;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-family: "Heebo";
 }
 
 .FormBox button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
+  background-color: #0ee1da;
+  color: black;
+  padding: 10px 130px;
   border: none;
-  border-radius: 3px;
+  border-radius: 1px;
   cursor: pointer;
+  font-weight: bold;
+  border: 1px solid black;
 }
