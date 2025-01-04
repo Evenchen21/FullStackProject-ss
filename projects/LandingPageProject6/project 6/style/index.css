@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  background-color: #0ee1e1;
+  color: black;
+  width: 0 auto;
+  height: 500px;
+  text-align: center;
+}
+
+.imagebox img {
+  text-align: right;
+  float: right;
+  top: 183px;
+  left: 1445px;
+  width: 325px;
+  height: 267px;
+}
+
+.BoxsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  gap: 10px;
+}
+.Box {
+  width: 0 auto;
+  height: 100px;
+  background-color: #00000029;
+  color: black;
+  text-align: center;
+}
