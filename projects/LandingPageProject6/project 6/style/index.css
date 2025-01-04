@@ -44,6 +44,7 @@
   padding: 30px;
   gap: 10px;
   height: 400px;
+  border: 10px solid black; /* Remove */
 }
 
 .Box {
@@ -80,16 +81,61 @@
 }
 
 .FooterBox {
-  display: flex;
-  height: 800px;
   width: 0 auto;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
   background-color: #f8f8f8;
-  border: 1px solid #0ee1e1;
+  border: 10px solid black; /* Remove */
 }
+
 .footerLeft {
+  /*  flex: 1; */
+  text-align: left;
   background-color: #f0ffff;
 }
 
 .footerRight {
+  /* flex: 1; */
+  text-align: right;
   background-color: #0ee1e1;
+  height: 600px;
+  width: 600px;
+}
+
+/* .FooterLeft,
+.FooterRight {
+  width: 45%;
+} */
+
+.FooterRight img {
+  height: 400px;
+  width: 400px;
+  background-color: #0ee1e1;
+}
+.FooterForm {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.FooterForm h2 {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.FooterForm p {
+  font-size: 11pt;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+.FooterForm form {
+  display: block;
+}
+
+.FooterForm form label {
+  font-weight: bold;
+  font-size: 14pt;
+  padding: 10px;
 }
