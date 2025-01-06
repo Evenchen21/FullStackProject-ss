@@ -14,8 +14,8 @@
 }
 
 .WhatsappBox {
-  top: 30px;
-  left: 0;
+  top: 50px;
+  left: 50px;
   position: absolute;
   background-color: white;
   cursor: pointer;
