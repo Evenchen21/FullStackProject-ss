@@ -108,28 +108,46 @@
 }
 
 .FooterForm form label,
-.FooterForm form input,
-.FooterForm form button {
+.FooterForm form input {
   display: block;
   width: 100%;
   margin-bottom: 1px;
   text-align: right;
 }
 
-.FooterForm form input,
-.FooterForm form button {
+.FooterForm form input {
   padding: 10px;
   border: none;
   background-color: #e5eeff;
 }
 
 .FooterForm form textarea {
+  resize: none;
+  width: 400px;
+  height: 50px;
   border-bottom: 3px solid #0ee1e1;
   background-color: #e5eeff;
 }
 
-.FooterForm form input {
+.FooterForm form input[type="text"] {
   border-bottom: 3px solid #0ee1e1;
+}
+
+.FooterForm form input[type="email"] {
+  border-bottom: 3px solid #0ee1e1;
+}
+
+.FooterForm form input[type="button"] {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #0ee1e1;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  width: 300px;
+  margin: 10px auto 0 auto;
+  display: block;
 }
 
 .FooterForm h2 {
@@ -152,16 +170,6 @@
   font-weight: bold;
   font-size: 14pt;
   padding: 10px;
-}
-
-.FooterForm form button {
-  background-color: #0ee1e1;
-  color: black;
-  font-weight: bolder;
-  text-align: center;
-  width: 300px;
-  margin: 10px auto 0 auto;
-  display: block;
 }
 
 .FooterRight {
