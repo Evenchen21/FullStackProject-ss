@@ -12,13 +12,24 @@
   height: 580px;
   text-align: center;
 }
-/* Need to add ICON */
+
+.WhatsappBox {
+  top: 30px;
+  left: 0;
+  position: absolute;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
 .IconWhatsapp {
-  position: fixed;
-  right: 10px;
-  top: 10px;
   width: 50px;
   height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .headerContainer h1 {
@@ -96,7 +107,6 @@
 }
 
 .footerLeft {
-  /* flex: 1; */
   text-align: left;
   background-color: #f0ffff;
 }
@@ -173,7 +183,6 @@
 }
 
 .FooterRight {
-  /* flex: 1; */
   background-color: #0ee1e1;
   margin: 0 auto;
   padding: 50px;
@@ -194,16 +203,27 @@
 }
 
 .ContactIcons {
-  border-bottom: 20px solid #0ee1e1;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 0 auto;
+  height: 30px;
+  display: flex;
+  padding-bottom: 50px;
 }
 
 .ContactIcons img {
-  display: flex;
-  justify-content: space-around;
   width: 50px;
   height: 50px;
   margin: 10px;
   border-radius: 30px;
   background-color: #0ee1e1;
   padding: 10px;
+}
+.Border {
+  width: 0 auto;
+  background-color: #0ee1e1;
+  height: 30px;
 }
