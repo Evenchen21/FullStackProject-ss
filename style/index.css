@@ -341,9 +341,10 @@ input[type="checkbox"] {
     display: none;
     width: 100%;
     text-align: center;
+    flex-direction: column;
   }
 
-  .navbar-flinks a {
+  .navbar-links a {
     display: block;
     padding: 10px 0;
     border-bottom: 1px solid #ccc;
@@ -366,6 +367,7 @@ input[type="checkbox"] {
 
   .Home {
     height: 70vw;
+    padding-top: 5vw;
   }
 
   .AboutMe {
