@@ -415,6 +415,7 @@ input[type="checkbox"] {
   }
 
   .ContactMe {
+    display: none; /* remove it */
     position: relative;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -444,6 +445,7 @@ input[type="checkbox"] {
   }
 
   .SocialMediaBar {
+    display: none; /* remove */
     bottom: 0;
     position: absolute;
     bottom: 0;
@@ -457,6 +459,7 @@ input[type="checkbox"] {
   }
 
   .Footer {
+    display: none; /* remove */
     font-size: 3vw;
     bottom: 0vw;
     position: absolute;
