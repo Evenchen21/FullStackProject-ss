@@ -8,8 +8,11 @@
 .Box {
   position: relative;
   background-color: #fff;
-  height: 100vh; /* Full viewport height */
-  width: 100vw; /* Full viewport width */
+  height: 100vh; 
+  width: 100vw; 
+  /* background-image: url("G:/האחסון שלי/Full Stack Developer Course Folder/קורס/GitHub-FullStack/FullStackProject-s/projects/LandingPageProject2/Project 2/images/TopPorjectWallpaper.png"); 
+  background-size: cover;
+  background-position: top; */
 }
 
 .ImageContainer {
@@ -67,3 +70,39 @@ Form {
     justify-items: right;
 
   }
+
+  /* Responsive */
+
+/* ...existing code... */
+
+@media (max-width: 480px) {
+  .FormBox {
+    width: 90%;
+    height: auto;
+    top: 50%;
+    padding: 20px;
+  }
+
+  .FormBox form {
+    right: 100000000px;
+  }
+
+  .FormBox p {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .FormBox button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  input[type="email"],
+  input[type="text"] {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+}
