@@ -1,4 +1,4 @@
-/* The CSS of the Project page index.html */
+/* The CSS of the Landing Project  1 page index.html */
 * {
   margin: 0;
   padding: 0;
@@ -71,6 +71,7 @@ body {
   background-color: darkcyan;
   height: 230px;
   box-shadow: 0 0 4px;
+  padding-bottom: 250px; /* add in projects */
 }
 
 .ProjectButtons .button {
@@ -148,4 +149,57 @@ body {
   color: darkcyan;
   font-size: 10pt;
   bottom: 0;
+}
+
+/* Responsive  */
+
+@media (max-width: 480px) {
+  .NavBar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ProfilePictureNavBar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Home {
+    font-size: 1rem;
+    padding: 5px;
+    height: auto;
+  }
+
+  .ProjectButtons .button {
+    width: 30%;
+    margin: 5px 0;
+  }
+
+  .TechnologyPicture {
+    flex-direction: row;
+  }
+
+  .TechnologyPicture img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ProjectBox {
+    position: relative;
+    height: 60vh;
+  }
+
+  .ProjectBoxImage {
+    height: 200px;
+  }
+
+  .SocialMediaBar {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .Footer {
+    font-size: 8pt;
+    bottom: 0;
+  }
 }
