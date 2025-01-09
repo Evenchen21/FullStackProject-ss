@@ -227,3 +227,65 @@
   background-color: #0ee1e1;
   height: 30px;
 }
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .WhatsappBox {
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .headerContainer {
+    background-color: #0ee1e1;
+    color: black;
+    height: 100vw;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headerContainer h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  .headerContainer p {
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .imagebox {
+    position: relative;
+    text-align: center;
+  }
+  .imagebox img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50%;
+    width: 50%;
+  }
+
+  .BoxsContainer {
+    display: block;
+    height: 60%;
+  }
+
+  .Box {
+    width: 350px;
+    height: 320px;
+    background-color: #f8f8f8;
+    color: black;
+    border-radius: 1px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+  }
+}
