@@ -47,15 +47,14 @@
 }
 
 .imagebox {
-  position: relative;
+  position: absolute;
+  right: 250px;
+  top: 160px;
   text-align: center;
 }
 .imagebox img {
-  position: absolute;
-  right: 400px;
-  bottom: 1px;
-  width: 325px;
-  height: 267px;
+  height: 40%;
+  width: 40%;
 }
 
 .BoxsContainer {
@@ -233,8 +232,8 @@
 
 @media (max-width: 480px) {
   .WhatsappBox {
-    top: 40px;
-    left: 40px;
+    top: 30px;
+    left: 30px;
     position: absolute;
     background-color: white;
     cursor: pointer;
@@ -252,8 +251,8 @@
   .headerContainer h1 {
     justify-content: center;
     text-align: center;
-    font-size: 1.9rem;
     font-weight: bold;
+    padding-left: 20px;
   }
   .headerContainer p {
     font-size: 1em;
@@ -262,15 +261,14 @@
   }
 
   .imagebox {
-    position: relative;
+    position: absolute;
+    right: 15vw;
+    top: 25vw;
     text-align: center;
   }
   .imagebox img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
   }
 
   .BoxsContainer {
