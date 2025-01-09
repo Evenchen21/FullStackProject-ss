@@ -122,13 +122,17 @@ button:hover {
 
   label {
     display: block;
+    justify-content: center;
     text-align: right;
     right: 0;
     margin-bottom: 0.5rem;
   }
 
-  input,
-  button {
+  input {
     width: 100%;
   }
+}
+button {
+  justify-content: center;
+  text-align: center;
 }
