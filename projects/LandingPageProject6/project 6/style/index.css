@@ -133,6 +133,7 @@
 
 .FooterForm form textarea {
   resize: none;
+  border: none;
   width: 400px;
   height: 50px;
   border-bottom: 3px solid #0ee1e1;
@@ -278,6 +279,7 @@
   }
 
   .Box {
+    display: block;
     width: 350px;
     height: 320px;
     background-color: #f8f8f8;
@@ -287,5 +289,30 @@
     justify-content: center;
     justify-items: center;
     padding: 10px;
+  }
+
+  .FooterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+
+  .FooterForm {
+    display: block;
+    padding-top: 30px;
+  }
+
+  .FooterRight {
+    margin-top: 40px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .FooterRight img {
+    width: 100%;
+    height: auto;
   }
 }
