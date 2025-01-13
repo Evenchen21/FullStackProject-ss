@@ -15,25 +15,31 @@ body {
 }
 
 .container {
-  /*  max-width: 960px; */
-  width: 1000px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 20px;
   background-color: #e5eeff;
 }
 
-/* Grid Layout in HTML */
-
-.image {
-  width: 250px;
-  height: 250px;
-  border: none;
+.TextBox {
+  text-align: center;
+  height: 25%;
+  background: #020253 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
+
+/* Grid Layout in HTML */
 
 .ImageBoxs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+.ImageBoxs .image {
+  width: 100%;
+  height: auto;
+  border: none;
 }
 
 .box {
@@ -100,7 +106,6 @@ body {
   grid-column: 3/5;
   grid-row: 4/7;
 }
-/* End of layout*/
 
 .box {
   background-color: #020253;
@@ -125,30 +130,26 @@ body {
 }
 
 .FormBox {
+  background-color: #f0f0f0;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-  justify-content: center;
   background-color: #8e097c;
   color: #0ee1da;
-  width: 500px;
-  height: 800px;
-  margin: 0 auto;
 }
 
 Form {
   padding: 40px;
-  text-align: center;
-  justify-content: center;
 }
 
 .FormBox h2 {
   color: white;
   margin-top: 30px;
+}
+
+.FormBox h2 {
   margin-bottom: 20px;
   font: normal normal bold 35px/46px Assistant;
-  text-align: center;
-  justify-content: center;
 }
 
 .FormBox h3 {
@@ -156,22 +157,19 @@ Form {
   font-family: "Assistant";
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
-  justify-content: center;
 }
 
 .FormBox input[type="text"],
 .FormBox input[type="email"],
 .FormBox textarea {
   display: block;
-  width: 300px;
-  padding: 20px;
-  margin: 0 auto 15px auto;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
   color: #0ee1da;
   border-bottom: 2px solid #0ee1da;
-  text-align: center;
 }
 
 Form label {
@@ -191,112 +189,74 @@ Form label {
   cursor: pointer;
   font-weight: bold;
   border: 1px solid black;
-  text-align: center;
-  justify-content: center;
 }
 
 /* Responsive Mode for Mobile Devices*/
 
 @media (max-width: 480px) {
-  .container {
-    padding: 10px;
-    height: 100vh;
-    width: 100vw;
-  }
-
-  .FormBox button {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .ImageBoxs .image {
-    width: 100%;
-    height: auto;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   .ImageBoxs {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
 
   .box {
     grid-column: 1 / 5;
-    grid-row: 1 / 2;
-  }
-
-  .image9 {
-    grid-column: 1 / -1;
-    grid-row: 2 / 3;
-  }
-
-  .image10 {
-    grid-column: 1 / -1;
-    grid-row: 3 / 4;
-  }
-
-  .image6 {
-    grid-column: 1 / -1;
-    grid-row: 4 / 5;
-  }
-
-  .image11 {
-    grid-column: 1 / -1;
-    grid-row: 5 / 6;
+    grid-row: 1 / 5;
   }
 
   .image2 {
-    grid-column: 1 / -1;
-    grid-row: 6 / 7;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image5 {
-    grid-column: 1 / -1;
-    grid-row: 7 / 8;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image4 {
-    grid-column: 1 / -1;
-    grid-row: 8 / 9;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image3 {
-    grid-column: 1 / -1;
-    grid-row: 9 / 10;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image12 {
-    grid-column: 1 / -1;
-    grid-row: 10 / 11;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image14 {
-    grid-column: 1 / -1;
-    grid-row: 11 / 12;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image7 {
-    grid-column: 1 / -1;
-    grid-row: 12 / 13;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image13 {
-    grid-column: 1 / -1;
-    grid-row: 13 / 14;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image1 {
-    grid-column: 1 / -1;
-    grid-row: 14 / 15;
+    grid-column: ;
+    grid-row: ;
   }
-
   .image8 {
-    grid-column: 1 / -1;
-    grid-row: 15 / 16;
+    grid-column: ;
+    grid-row: ;
+  }
+  .FormBox {
+    /* Removed grid-column and grid-row properties */
   }
 
-  .FormBox {
-    grid-column: 1 / -1;
-    grid-row: 16 / 17;
+  .FormBox button {
+    width: 100%;
+    padding: 10px;
   }
 }
