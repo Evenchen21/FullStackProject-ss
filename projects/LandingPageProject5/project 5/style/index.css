@@ -21,15 +21,7 @@ body {
   background-color: #e5eeff;
 }
 
-.TextBox {
-  text-align: center;
-  height: 25%;
-  background: #020253 0% 0% no-repeat padding-box;
-  opacity: 1;
-}
-
 /* Grid Layout in HTML */
-
 .ImageBoxs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
