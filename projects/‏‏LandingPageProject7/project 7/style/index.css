@@ -4,313 +4,96 @@
   box-sizing: border-box;
   position: ltr;
 }
-
-.headerContainer {
-  background-color: #0ee1e1;
-  color: black;
-  width: 0 auto;
-  height: 580px;
-  text-align: center;
+body {
+  justify-content: right;
+  text-align: right;
 }
 
-.WhatsappBox {
-  top: 50px;
-  left: 50px;
-  position: absolute;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 50%;
-}
-
-.IconWhatsapp {
+.BoxWhatsapp {
+  border-radius: 55%;
   width: 50px;
   height: 50px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.headerContainer h1 {
-  padding-top: 200px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 60px;
-}
-
-.headerContainer p {
-  text-align: center;
-  justify-content: center;
-  padding-top: 20px;
-  font-weight: bold;
-}
-
-.imagebox {
-  position: absolute;
-  right: 250px;
-  top: 160px;
-  text-align: center;
-}
-.imagebox img {
-  height: 40%;
-  width: 40%;
-}
-
-.BoxsContainer {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  gap: 10px;
-  height: 400px;
-}
-
-.Box {
-  width: 350px;
-  height: 320px;
-  background-color: #f8f8f8;
-  color: black;
-  border-radius: 1px;
-  text-align: center;
   justify-content: center;
   justify-items: center;
-  padding: 10px;
 }
 
-.Box img {
-  width: 30px;
-  height: 30px;
-  margin-top: 50px;
-  margin-bottom: 10px;
+.PhoneImage {
+  height: 800px;
+  width: auto;
 }
 
-.Box p {
-  color: #0ee1e1;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 10px;
+.WhatsappImage {
+  width: 40px;
+  height: 40px;
+  background-color: #fdbd03;
+  border-radius: 60%;
 }
 
-.Box h3 {
-  font-weight: bold;
-  font-size: 1rem;
-  padding: 5px;
-  cursor: pointer;
+.BoxPhone {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  right: 0;
 }
 
-.FooterBox {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #f8f8f8;
+.BoxForm {
+  position: absolute;
+  left: 600px;
+  top: 200px;
 }
 
-.footerLeft {
-  text-align: left;
-  background-color: #f0ffff;
-}
-
-.FooterForm {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.FooterForm form label,
-.FooterForm form input {
-  display: block;
-  width: 100%;
-  margin-bottom: 1px;
-  text-align: right;
-}
-
-.FooterForm form input {
-  padding: 10px;
-  border: none;
-  background-color: #e5eeff;
-}
-
-.FooterForm form textarea {
-  resize: none;
-  border: none;
-  width: 400px;
-  height: 50px;
-  border-bottom: 3px solid #0ee1e1;
-  background-color: #e5eeff;
-}
-
-.FooterForm form input[type="text"] {
-  border-bottom: 3px solid #0ee1e1;
-}
-
-.FooterForm form input[type="email"] {
-  border-bottom: 3px solid #0ee1e1;
-}
-
-.FooterForm form input[type="button"] {
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  background-color: #0ee1e1;
-  color: black;
+.forme h1 {
+  color: #ffaa00;
+  opacity: 1;
+  font-size: 2.5rem;
   font-weight: bolder;
-  text-align: center;
-  width: 300px;
-  margin: 10px auto 0 auto;
-  display: block;
+  padding: 6px;
+  margin-bottom: 15px;
 }
 
-.FooterForm h2 {
-  font-weight: bold;
+.forme h2 {
   font-size: 18pt;
-  text-align: end;
+  margin-bottom: 40px;
 }
 
-.FooterForm p {
-  font-size: 11pt;
-  padding: 10px;
-  padding-bottom: 50px;
-}
-
-.FooterForm form {
+.forme label {
   display: block;
-}
-
-.FooterForm form label {
   font-weight: bold;
-  font-size: 14pt;
-  padding: 10px;
-}
-
-.FooterRight {
-  background-color: #0ee1e1;
-  margin: 0 auto;
-  padding: 50px;
-  height: 100%;
-}
-
-.footerRight {
   text-align: right;
-  background-color: #0ee1e1;
-  height: 600px;
-  width: 600px;
 }
 
-.FooterRight img {
-  height: 600px;
-  width: 600px;
-  background-color: #0ee1e1;
-}
-
-.ContactIcons {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  margin-right: 5px;
-  margin-left: 5px;
-  width: 0 auto;
-  height: 30px;
-  display: flex;
-  padding-bottom: 50px;
-}
-
-.ContactIcons img {
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-  border-radius: 30px;
-  background-color: #0ee1e1;
+.forme input[type="text"],
+input[type="email"] {
+  width: 300px;
   padding: 10px;
+  margin: 5px;
+  border-radius: 1px;
+  background-color: #e5eeff;
+  border: none;
+  border-bottom: 2px solid #fdbd03;
 }
-.Border {
-  width: 0 auto;
-  background-color: #0ee1e1;
-  height: 30px;
+
+.forme label[for="details"] {
+  padding: 5px;
 }
 
-/* Responsive */
+.forme textarea {
+  justify-content: right;
+  text-align: right;
+  justify-items: right;
+  background-color: #e5eeff;
+  border: none;
+  border-bottom: 2px solid #fdbd03;
+  direction: rtl;
+  float: right;
+  width: 300px;
+  height: 100px;
+  margin-bottom: 30px;
+}
 
-@media (max-width: 480px) {
-  .WhatsappBox {
-    top: 30px;
-    left: 30px;
-    position: absolute;
-    background-color: white;
-    cursor: pointer;
-    border-radius: 50%;
-  }
-
-  .headerContainer {
-    background-color: #0ee1e1;
-    color: black;
-    height: 100vw;
-    width: 100%;
-    text-align: center;
-  }
-
-  .headerContainer h1 {
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    padding-left: 20px;
-  }
-  .headerContainer p {
-    font-size: 1em;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .imagebox {
-    position: absolute;
-    right: 15vw;
-    top: 25vw;
-    text-align: center;
-  }
-  .imagebox img {
-    height: 40%;
-    width: 40%;
-  }
-
-  .BoxsContainer {
-    display: block;
-    height: 60%;
-  }
-
-  .Box {
-    display: block;
-    width: 350px;
-    height: 320px;
-    background-color: #f8f8f8;
-    color: black;
-    border-radius: 1px;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 10px;
-  }
-
-  .FooterBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f8f8;
-  }
-
-  .FooterForm {
-    display: block;
-    padding-top: 30px;
-  }
-
-  .FooterRight {
-    margin-top: 40px;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .FooterRight img {
-    width: 100%;
-    height: auto;
-  }
+.forme input [type="button"] {
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #ffaa00;
 }
