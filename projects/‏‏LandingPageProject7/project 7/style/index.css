@@ -30,6 +30,7 @@ body {
 }
 
 .BoxPhone {
+  display: block;
   height: 500px;
   width: auto;
   position: absolute;
@@ -40,6 +41,7 @@ body {
   position: absolute;
   left: 600px;
   top: 200px;
+  height: auto;
 }
 
 .forme h1 {
@@ -62,21 +64,29 @@ body {
   text-align: right;
 }
 
+.forme label[for="fullName"],
+.forme label[for="email"] {
+  display: inline-block;
+  width: auto;
+  text-align: right;
+  margin-right: 10px;
+}
+
 .forme input[type="text"],
 input[type="email"] {
-  width: 300px;
+  width: 145px;
   padding: 10px;
   margin: 5px;
   border-radius: 1px;
   background-color: #e5eeff;
   border: none;
   border-bottom: 2px solid #fdbd03;
+  display: inline-block;
 }
 
 .forme label[for="details"] {
   padding: 5px;
 }
-
 .forme textarea {
   justify-content: right;
   text-align: right;
@@ -84,16 +94,25 @@ input[type="email"] {
   background-color: #e5eeff;
   border: none;
   border-bottom: 2px solid #fdbd03;
-  direction: rtl;
-  float: right;
-  width: 300px;
+  width: 400px;
   height: 100px;
   margin-bottom: 30px;
+  float: right;
 }
 
-.forme input [type="button"] {
-  justify-content: center;
-  text-align: center;
+.forme input[type="button"] {
+  display: block;
   margin-top: 10px;
-  color: #ffaa00;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffaa00;
+  height: 30px;
+  width: 100px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }
