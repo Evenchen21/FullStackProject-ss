@@ -66,14 +66,14 @@ body {
 
 .forme label[for="fullName"],
 .forme label[for="email"] {
-  display: inline-block;
+  display: block;
   width: auto;
   text-align: right;
   margin-right: 10px;
 }
 
 .forme input[type="text"],
-input[type="email"] {
+.forme input[type="email"] {
   width: 145px;
   padding: 10px;
   margin: 5px;
@@ -107,7 +107,6 @@ input[type="email"] {
   text-align: center;
   justify-content: center;
   justify-items: center;
-  margin-left: auto;
   margin-right: auto;
   background-color: #ffaa00;
   height: 30px;
