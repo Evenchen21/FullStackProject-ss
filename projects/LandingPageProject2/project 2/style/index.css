@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Press+Start+2P&family=Satisfy&family=Varela&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -24,7 +26,7 @@ body {
   right: 20;
   background-color: #1a1a1ad4;
   width: 468.61px;
-  height: 350px;
+  height: 450 px;
   color: #fff;
   transform: translate(-50%, -50%);
   padding: 30px;
@@ -44,11 +46,13 @@ Form {
 .FormBox h2 {
   margin: 20px;
   text-align: center;
+  font: normal normal 900 36px/53px Heebo;
 }
 
 .FormBox p {
   text-align: center;
   justify-content: left;
+  font: normal normal normal 20px/29px Heebo;
 }
 
 .FormBox button {
@@ -56,15 +60,32 @@ Form {
   background-color: #d31c75;
   width: 130px;
   height: 50px;
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
   font-weight: bold;
   margin-top: 20px;
+  border: none;
+  position: relative;
+  right: -85px;
+  cursor: pointer;
 }
 
 input[type="email"],
 input[type="text"] {
   text-align: right;
+  width: 300px;
+  height: 30px;
   justify-content: right;
   justify-items: right;
+  border: solid 1px #d31c75;
+  font: normal normal bold 16px/24px Heebo;
+  margin: 10px;
+}
+
+label {
+  display: block;
+  text-align: right;
+  width: 70%;
 }
 
 /* Responsive */
