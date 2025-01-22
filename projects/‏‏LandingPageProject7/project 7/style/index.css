@@ -172,3 +172,54 @@ body {
   left: 0;
   background: #fdbd03;
 }
+
+/* Responsive for Mobile Phone */
+
+@media (max-width: 480px) {
+  .BoxPhone {
+    right: auto;
+    left: auto;
+    height: 200px;
+  }
+
+  .WhatsappImage img {
+    display: none;
+  }
+  .WhatsappImage {
+    display: none;
+  }
+
+  .BoxForm {
+    left: 50%;
+    top: 150px;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  .forme {
+    width: 100%;
+  }
+
+  .forme input[type="text"],
+  .forme input[type="email"],
+  .forme textarea {
+    width: 100%;
+  }
+
+  .FooterIconsContactMe {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    gap: 10px;
+  }
+
+  .FooterIconsContactMe img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  .FooterColor {
+    position: absolute;
+    width: 100%;
+  }
+}
