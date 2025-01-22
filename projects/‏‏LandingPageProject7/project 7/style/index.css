@@ -34,14 +34,20 @@ body {
   height: 500px;
   width: auto;
   position: absolute;
-  right: 0;
+  right: 10%;
 }
 
 .BoxForm {
   position: absolute;
-  left: 600px;
+  left: 30%;
   top: 200px;
+  transform: translateX(-50%);
   height: auto;
+  width: auto;
+}
+
+.forme {
+  width: 900px;
 }
 
 .forme h1 {
@@ -74,7 +80,8 @@ body {
 
 .forme input[type="text"],
 .forme input[type="email"] {
-  width: 145px;
+  display: flex;
+  width: 400px;
   padding: 10px;
   margin: 5px;
   border-radius: 1px;
@@ -87,6 +94,7 @@ body {
 .forme label[for="details"] {
   padding: 5px;
 }
+
 .forme textarea {
   justify-content: right;
   text-align: right;
@@ -107,6 +115,7 @@ body {
   text-align: center;
   justify-content: center;
   justify-items: center;
+  margin-left: auto;
   margin-right: auto;
   background-color: #ffaa00;
   height: 30px;
@@ -114,4 +123,18 @@ body {
   border: none;
   font-weight: bold;
   cursor: pointer;
+  clear: both;
+  float: right;
+}
+
+.FooterIconsContactMe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 20px;
+  gap: 30px;
 }
