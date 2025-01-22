@@ -22,20 +22,26 @@ body {
   border-radius: 55%;
   width: 50px;
   height: 50px;
+  background-color: #fff;
   justify-content: center;
   justify-items: center;
+}
+
+.WhatsappImage {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  top: 20px;
+  background-color: #ffaa00;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .PhoneImage {
   height: 800px;
   width: auto;
-}
-
-.WhatsappImage {
-  width: 40px;
-  height: 40px;
-  background-color: #fdbd03;
-  border-radius: 60%;
 }
 
 .BoxPhone {
@@ -154,6 +160,7 @@ body {
   background-color: #ffaa00;
   border-radius: 50%;
   padding: 10px;
+  cursor: pointer;
 }
 
 .FooterColor {
