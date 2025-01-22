@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Press+Start+2P&family=Satisfy&family=Varela&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,7 @@
 body {
   justify-content: right;
   text-align: right;
+  font-family: "Heebo";
 }
 
 .HeaderColor {
@@ -72,11 +75,13 @@ body {
   font-weight: bolder;
   padding: 6px;
   margin-bottom: 15px;
+  font: normal normal 900 40px/59px Heebo;
 }
 
 .forme h2 {
   font-size: 18pt;
   margin-bottom: 40px;
+  font: normal normal normal 15px/22px Heebo;
 }
 
 .forme label {
@@ -176,13 +181,24 @@ body {
 /* Responsive for Mobile Phone */
 
 @media (max-width: 480px) {
-  .BoxPhone {
-    right: auto;
-    left: auto;
-    height: 200px;
+  body {
+    width: 100%;
+    height: 100vh;
   }
 
-  .WhatsappImage img {
+  .BoxPhone {
+    right: 50%;
+    transform: translateX(50%);
+    height: 300px;
+  }
+
+  .BoxPhone img {
+    justify-content: center;
+    justify-items: center;
+    height: 300px;
+  }
+
+  .BoxWhatsapp img {
     display: none;
   }
   .WhatsappImage {
@@ -194,32 +210,58 @@ body {
     top: 150px;
     transform: translateX(-50%);
     width: 90%;
+    margin-bottom: 40vw;
   }
 
   .forme {
     width: 100%;
+    margin-top: 50vw;
+    margin-bottom: 100vw; /*  */
+  }
+
+  .forme h1 {
+    text-align: center;
+    justify-content: center;
+  }
+  .forme h2 {
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+    color: #020253;
   }
 
   .forme input[type="text"],
   .forme input[type="email"],
   .forme textarea {
     width: 100%;
+    margin-top: 1vw;
+  }
+  .forme input[type="button"] {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    margin-top: 1vw;
   }
 
   .FooterIconsContactMe {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 10px;
-    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    top: 250vw;
+    bottom: 0;
   }
 
   .FooterIconsContactMe img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     margin-bottom: 10px;
   }
+
   .FooterColor {
-    position: absolute;
+    position: fixed;
     width: 100%;
   }
 }
