@@ -150,7 +150,8 @@ input[type="checkbox"] {
 }
 
 .Resume:hover {
-  text-decoration: underline;
+  background-color: rgb(1, 118, 118);
+  font-weight: bold;
 }
 
 .Resume:active {
