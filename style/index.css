@@ -131,6 +131,10 @@ input[type="checkbox"] {
   color: darkcyan;
   font-size: 1.5em;
 }
+.textSection {
+  text-decoration: underline;
+  color: darkcyan;
+}
 
 .Resume {
   display: inline-block;
