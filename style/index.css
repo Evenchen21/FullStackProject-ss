@@ -474,11 +474,10 @@ input[type="checkbox"] {
   .Footer {
     width: 100%;
     height: 30px;
-    margin-top: 34vh;
+    margin-top: 32vh;
   }
 
   .Footer p {
-    /* position: absolute; */
     text-align: center;
     justify-content: center;
     font-size: 3vw;
