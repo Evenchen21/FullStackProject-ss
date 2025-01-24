@@ -89,6 +89,10 @@ input[type="checkbox"] {
   padding: 10px;
   background-color: darkcyan;
   height: 200px;
+  background-image: url("/Images/FormBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .TechnologyPicture {
@@ -104,6 +108,7 @@ input[type="checkbox"] {
   border-radius: 10px;
   margin: 5px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .SectionProfilePicture {
@@ -232,8 +237,12 @@ input[type="checkbox"] {
 .ContactMe {
   margin-top: 2%;
   margin-bottom: 2%;
+  background-image: url("/Images/FormBackground.png");
+  background-size: cover;
+  background-position: bottom;
 }
 .ContactMe h2 {
+  padding-bottom: 20px;
   color: darkcyan;
   text-align: center;
   font-size: 1.2em;
