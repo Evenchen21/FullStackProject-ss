@@ -386,6 +386,7 @@ input[type="checkbox"] {
   .Home {
     height: 70vw;
     margin-top: 15vw;
+    padding-bottom: 75vw;
   }
 
   .AboutMe {
