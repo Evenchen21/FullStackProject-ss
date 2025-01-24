@@ -180,7 +180,6 @@ input[type="checkbox"] {
 .ProjectBox {
   display: grid;
   justify-content: space-evenly;
-  /* flex-wrap: wrap; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 50px;
@@ -197,6 +196,9 @@ input[type="checkbox"] {
 .ProjectContainer p {
   padding-bottom: 10px;
   padding-top: 10px;
+  font-size: 1.3em;
+  color: darkcyan;
+  font-weight: bold;
 }
 
 .ProjectContainer img {
@@ -288,13 +290,7 @@ input[type="checkbox"] {
   border-radius: 5px;
   box-sizing: border-box;
   resize: vertical;
-}
-
-.Form extarea {
-  resize: none;
-  text-align: left;
-  width: 120px;
-  width: 50px;
+  border-bottom: 5px solid #3c8042;
 }
 
 .Form input[type="button"] {
