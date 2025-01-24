@@ -42,6 +42,10 @@ input[type="checkbox"] {
   z-index: 1;
 }
 
+.NavBar h3 {
+  font-weight: bolder;
+}
+
 .Button {
   display: none;
   justify-content: center;
