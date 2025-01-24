@@ -174,7 +174,7 @@ input[type="checkbox"] {
 .ProjectSection h2 {
   color: darkcyan;
   line-height: 2em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-decoration: underline;
 }
 
@@ -249,9 +249,10 @@ input[type="checkbox"] {
   padding-bottom: 20px;
   color: darkcyan;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.5em;
   text-align: center;
   justify-content: center;
+  text-decoration: underline;
 }
 
 .Form {
