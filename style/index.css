@@ -244,10 +244,9 @@ input[type="checkbox"] {
   padding-bottom: 20px;
   color: darkcyan;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.6em;
   text-align: center;
   justify-content: center;
-  text-decoration: underline;
 }
 
 .Form {
@@ -271,6 +270,7 @@ input[type="checkbox"] {
   margin-bottom: 4px;
   left: 0;
   text-align: center;
+  text-decoration: underline;
 }
 
 .Form input[type="text"],
@@ -303,8 +303,8 @@ input[type="checkbox"] {
   transition: background-color 0.3s;
 }
 
-.Form input[type="submit"]:hover {
-  background-color: rgb(101, 101, 101);
+.Form input[type="button"]:hover {
+  background-color: rgb(63, 63, 63);
 }
 
 .SocialMediaBar {
