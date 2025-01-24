@@ -176,7 +176,7 @@ input[type="checkbox"] {
 .ProjectBox {
   display: grid;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 50px;
