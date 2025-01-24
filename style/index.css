@@ -127,10 +127,13 @@ input[type="checkbox"] {
 }
 
 .AboutMe h2 {
-  text-decoration: underline;
   color: darkcyan;
   font-size: 1.5em;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  text-decoration: underline;
 }
+
 .textSection {
   text-decoration: underline;
   color: darkcyan;
@@ -173,7 +176,9 @@ input[type="checkbox"] {
 .ProjectSection h2 {
   color: darkcyan;
   line-height: 2em;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding-bottom: 10px;
   text-decoration: underline;
 }
 
@@ -251,9 +256,10 @@ input[type="checkbox"] {
   padding-bottom: 20px;
   color: darkcyan;
   text-align: center;
-  font-size: 1.6em;
-  text-align: center;
   justify-content: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .Form {
