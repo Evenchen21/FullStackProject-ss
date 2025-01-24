@@ -138,6 +138,7 @@ input[type="checkbox"] {
   text-decoration: underline;
   color: darkcyan;
   font-size: 1.5em;
+  padding-bottom: 10px;
 }
 
 .Resume {
