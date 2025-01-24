@@ -60,7 +60,7 @@ input[type="checkbox"] {
   margin: 5px;
   box-shadow: 0 0 15px;
   border: 1 solid black;
-  box-shadow: 0 0 10px darkcyan;
+  box-shadow: 0 0 5px darkcyan;
 }
 
 .NavBar {
