@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin-top: 60px;
   justify-content: center;
@@ -60,7 +64,7 @@ input[type="checkbox"] {
   margin: 5px;
   box-shadow: 0 0 15px;
   border: 1 solid black;
-  box-shadow: 0 0 5px darkcyan;
+  box-shadow: 0 0 10px darkcyan;
 }
 
 .NavBar {
@@ -127,16 +131,9 @@ input[type="checkbox"] {
 }
 
 .AboutMe h2 {
+  text-decoration: underline;
   color: darkcyan;
   font-size: 1.5em;
-  padding-bottom: 10px;
-  font-weight: bolder;
-  text-decoration: underline;
-}
-
-.textSection {
-  text-decoration: underline;
-  color: darkcyan;
 }
 
 .Resume {
@@ -152,6 +149,10 @@ input[type="checkbox"] {
   transition: background-color 0.3s, transform 0.1s;
 }
 
+.Resume:hover {
+  text-decoration: underline;
+}
+
 .Resume:active {
   background-color: #0056b3;
   transform: scale(0.95);
@@ -163,10 +164,6 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-.Resume:hover {
-  background-color: rgb(1, 118, 118);
-}
-
 .ProjectSection {
   margin-top: 2%;
   height: auto;
@@ -176,19 +173,17 @@ input[type="checkbox"] {
 .ProjectSection h2 {
   color: darkcyan;
   line-height: 2em;
-  font-size: 1.5em;
-  font-weight: bolder;
-  padding-bottom: 10px;
+  font-size: 1.2em;
   text-decoration: underline;
 }
 
 .ProjectBox {
   display: grid;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 50px;
-  margin-bottom: 30px;
 }
 
 .ProjectContainer {
@@ -201,9 +196,6 @@ input[type="checkbox"] {
 .ProjectContainer p {
   padding-bottom: 10px;
   padding-top: 10px;
-  font-size: 1.3em;
-  color: darkcyan;
-  font-weight: bold;
 }
 
 .ProjectContainer img {
@@ -256,10 +248,9 @@ input[type="checkbox"] {
   padding-bottom: 20px;
   color: darkcyan;
   text-align: center;
+  font-size: 1.6em;
+  text-align: center;
   justify-content: center;
-  font-size: 1.5em;
-  font-weight: bolder;
-  text-decoration: underline;
 }
 
 .Form {
@@ -296,7 +287,13 @@ input[type="checkbox"] {
   border-radius: 5px;
   box-sizing: border-box;
   resize: vertical;
-  border-bottom: 5px solid #3c8042;
+}
+
+.Form extarea {
+  resize: none;
+  text-align: left;
+  width: 120px;
+  width: 50px;
 }
 
 .Form input[type="button"] {
@@ -343,7 +340,7 @@ input[type="checkbox"] {
 @media (max-width: 480px) {
   body {
     width: 100%;
-    height: 100vh; /* need to change */
+    height: 100vh;
     position: relative;
   }
 
@@ -359,17 +356,17 @@ input[type="checkbox"] {
     display: none;
     width: 100%;
     text-align: center;
-    flex-direction: column;
   }
 
   .navbar-links a {
     display: block;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    text-decoration: none;
+    padding-right: 15px;
   }
 
   nav {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .Button {
@@ -386,7 +383,6 @@ input[type="checkbox"] {
   .Home {
     height: 70vw;
     margin-top: 15vw;
-    padding-bottom: 75vw;
   }
 
   .AboutMe {
