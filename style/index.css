@@ -149,10 +149,6 @@ input[type="checkbox"] {
   transition: background-color 0.3s, transform 0.1s;
 }
 
-.Resume:hover {
-  text-decoration: underline;
-}
-
 .Resume:active {
   background-color: #0056b3;
   transform: scale(0.95);
@@ -162,6 +158,10 @@ input[type="checkbox"] {
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+.Resume:hover {
+  background-color: rgb(1, 118, 118);
 }
 
 .ProjectSection {
