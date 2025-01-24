@@ -218,8 +218,8 @@ input[type="checkbox"] {
   box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.685);
 }
 
-.ProjectBotton:hover {
-  text-decoration: underline;
+.ProjectButton:hover {
+  background-color: rgb(1, 118, 118);
 }
 
 .ProjectBotton:active {
