@@ -190,11 +190,6 @@ input[type="checkbox"] {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 50px;
-  /*   background-image: url("");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-blend-mode: darken; */
 }
 
 .ProjectContainer {
